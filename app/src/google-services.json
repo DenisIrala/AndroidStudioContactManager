@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "128296242898",
+    "project_id": "proyectodbp-e35ec",
+    "storage_bucket": "proyectodbp-e35ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128296242898:android:c3c1b0266279d41eeda70b",
+        "android_client_info": {
+          "package_name": "com.utec.grupo2.proyectodbp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128296242898-copdo309fj82i4jtoqchknj47971n2pm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgzj9faqjUpakkLko7ewYWTbyzla9PpOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128296242898-copdo309fj82i4jtoqchknj47971n2pm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

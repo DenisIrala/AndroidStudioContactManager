@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProyectoDBP</string>
+    <string name="txt_username">Correo</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="txt_login">Iniciar Sesión</string>
+    <string name="txt_register">Registrarse</string>
+    <string name="txt_logout">Cerrar Sesión</string>
+</resources>

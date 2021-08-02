@@ -1,22 +1,23 @@
-package com.utec.grupo2.proyectodbp;
+package com.utec.jbarzola.file00;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
-
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 
-import com.google.firebase.auth.FirebaseAuth;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 
-public class HomeActivity extends AppCompatActivity {
-
-    private Button mLogout;
-    private FirebaseAuth Auth;
+public class MainActivity extends AppCompatActivity {
     FragmentManager manejador;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        manejador = getSupportFragmentManager();
+        pantalla1Fragment fragmentoUno = new pantalla1Fragment();
+        manejador.beginTransaction().replace(R.id.area, fragmentoUno).commit();
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -46,20 +47,42 @@ public class HomeActivity extends AppCompatActivity {
         }
 
     }
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
-        Auth=FirebaseAuth.getInstance();
-        mLogout= (Button) findViewById(R.id.logout_button);
-        manejador = getSupportFragmentManager();
-        pantalla1Fragment fragmentoUno = new pantalla1Fragment();
-        manejador.beginTransaction().replace(R.id.area, fragmentoUno).commit();
-    }
-    public void Logout(View view){
-        Auth.signOut();
-        startActivity(new Intent(HomeActivity.this, AuthActivity.class));
-        finish();
-    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

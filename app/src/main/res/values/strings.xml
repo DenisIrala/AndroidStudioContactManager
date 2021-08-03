@@ -5,4 +5,7 @@
     <string name="txt_login">Login</string>
     <string name="txt_register">Register</string>
     <string name="txt_logout">Logout</string>
+    <string name="txt_nombre">Name</string>
+    <string name="txt_autor">Year of publication</string>
+    <string name="txt_save">Save</string>
 </resources>

@@ -6,4 +6,7 @@
     <string name="txt_login">Iniciar Sesión</string>
     <string name="txt_register">Registrarse</string>
     <string name="txt_logout">Cerrar Sesión</string>
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_autor">Año de publicación</string>
+    <string name="txt_save">Guardar</string>
 </resources>
